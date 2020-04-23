@@ -1,9 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`shows a counter button component 1`] = `
+exports[`CounterButton shows a counter button component 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <CounterButton />,
+  Symbol(enzyme.__unrendered__): <CounterButton
+    color="red"
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -20,15 +22,16 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         "Count: ",
-        1,
+        0,
       ],
-      "color": undefined,
+      "color": "red",
+      "id": "counter",
       "onClick": [Function],
     },
     "ref": null,
     "rendered": Array [
       "Count: ",
-      1,
+      0,
     ],
     "type": "button",
   },
@@ -40,15 +43,16 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           "Count: ",
-          1,
+          0,
         ],
-        "color": undefined,
+        "color": "red",
+        "id": "counter",
         "onClick": [Function],
       },
       "ref": null,
       "rendered": Array [
         "Count: ",
-        1,
+        0,
       ],
       "type": "button",
     },
